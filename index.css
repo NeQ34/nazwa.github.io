@@ -1,0 +1,362 @@
+body
+{
+	background-color: 303030;
+	margin: 0px;
+	color: white;
+}
+#top
+{
+	background-color: #212528;
+	height: 80px;
+	width: 100%
+}
+.opcja
+{
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+	float: right;
+	font-family: cursive;
+	margin-top: 15px;
+	border-left: 1px dotted black;
+	font-size: 25px;
+	color: white;
+	margin-right: 10px;
+}
+.opcja:hover
+{
+	color: e67e22;
+	background-color: white;
+}
+.opcja:first-child
+{
+	border-right: 1px dotted black;
+}
+#obr
+{
+	margin-top: 0px;
+	width: 100px;
+	height: 80px;
+	margin-left: 50px;
+	float: left;
+}
+#obr2
+{
+	float: right;
+	width: 385px;
+	height: 188px;
+	padding: 10px;
+	margin-top: 15px;
+}
+#op
+{
+	font-size: 50px;
+	color: white;
+	float: left;
+	margin-top: 5px;
+	border-left: 3px dotted black;
+	border-right: 3px dotted black;
+	padding: 5px;
+}
+#pojemnik
+{
+	margin-top: 50px;
+	width: 1000px;
+	background-color: 212528;
+	height: 2300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#op1
+{
+	color: white;
+	width: 600px;
+	text-align: justify;
+	margin-left: 5px;
+	font-size: 25px;
+	font-family: cursive;
+}
+#linia
+{
+	width: 100%;
+	height: 50px;
+	border-bottom: 10px dotted black;
+}
+#raz
+{
+	color: white;
+	width: 1000px;
+	height: 280px;
+	margin-left: 5px;
+	float: left;
+}
+#xd
+{
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+#op2
+{
+	margin-top: 120px;
+	font-size: 25px;
+	font-family: fantasy;
+}
+#linia2
+{
+	width: 100%;
+	height: 330px;
+	border-bottom: 10px dotted black;
+}
+#op3
+{
+	margin-top: 20px;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-align: center;
+}
+#obrazki
+{
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	font-size: 25px;
+}
+#obr5
+{
+	width: 450px;
+	height: 300px;
+	margin-top: 70px;
+}
+#obr5:hover
+{
+	cursor: pointer;
+}
+#obra1
+{
+	position: relative;
+	width: 450px;
+	height: 300px;
+}
+#obra1 .obra12 
+{
+	margin-top: 70px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #0E0E0E;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+	text-decoration: none;
+	color: orange;
+}
+#obra1:hover .obra12
+{
+	opacity: 0.9;
+}
+.ss
+{
+	margin-top: 95px;
+}
+.icon
+{
+	display: block;
+	top: 70px;
+	position: relative;
+	font-size: 100px;
+	color: white;
+}
+.icon p
+{
+	font-size: 25px;
+	color: orange;
+}
+#obrazki2
+{
+	float: right;
+	text-align: center;
+	margin-right: 30px;
+	font-size: 25px;
+}
+#obr6
+{
+	width: 450px;
+	height: 300px;
+	margin-top: 70px;
+}
+#obr6:hover
+{
+	cursor: pointer;
+}
+
+#obrazki3
+{
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	font-size: 25px;
+}
+#obr7
+{
+	width: 450px;
+	height: 300px;
+	margin-top: 70px;
+}
+#obr7:hover
+{
+	cursor: pointer;
+}
+
+#obrazki4
+{
+	float: right;
+	text-align: center;
+	margin-right: 30px;
+	font-size: 25px;
+}
+#obr8
+{
+	width: 450px;
+	height: 300px;
+	margin-top: 70px;
+}
+#obr8:hover
+{
+	cursor: pointer;
+}
+#obrazki5
+{
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+	font-size: 25px;
+}
+#obr9
+{
+	width: 450px;
+	height: 300px;
+	margin-top: 70px;
+}
+#obr9:hover
+{
+	cursor: pointer;
+}
+
+#obrazki6
+{
+	float: right;
+	text-align: center;
+	margin-right: 30px;
+	font-size: 25px;
+}
+#obr10
+{
+	width: 450px;
+	height: 300px;
+	margin-top: 70px;
+}
+#obr10:hover
+{
+	cursor: pointer;
+}
+#linia3
+{
+	width: 100%;
+	height: 1500px;
+	border-bottom: 10px dotted black;
+}
+#stopka
+{
+	margin-top: 50px;
+	height: 300px;
+	width: 100%;
+	background-color: #191919;
+	text-align: center;
+	font-size: 25px;
+	font-family: cursive;
+}
+.info
+{
+	float: left;
+	padding: 10px;
+	margin-left: 230px;
+}
+.info2
+{
+	float: left;
+	padding: 10px;
+	margin-left: 100px;
+}
+.info2 a
+{
+	text-decoration: none;
+	color: white;
+}
+.info3
+{
+	float: left;
+	padding: 10px;
+	margin-left: 100px;
+}
+.okno
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+	text-decoration: none;
+	background-color: red;
+	color: white;
+}
+.okno:hover
+{
+	background-color: #CC0000
+}
+.okno2
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+	text-decoration: none;
+	background-color: 4267b2;
+	color: white;
+}
+.okno2:hover
+{
+	background-color: 3b4698;
+}
+.okno3
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+	text-decoration: none;
+	background-color: 1c9dec;
+	color: white;
+}
+.okno3:hover
+{
+	background-color: #0091EA;
+}
+
+.dc
+{
+	width: 100px;
+	height: 100px;
+}
+.dc:hover
+{
+	background-color: #6278c8;
+}
+#za
+{
+	text-align: center;
+	background-color: #262626;
+	font-size: 50px;
+}
+.str:hover
+{
+	text-decoration: orange underline;
+}
